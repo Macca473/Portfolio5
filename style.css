@@ -1,0 +1,263 @@
+html {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+}
+
+.topbarsvg {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    height: auto;
+    width: 100%;
+}
+
+.globalgrid {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-columns: 15% auto;
+    grid-template-rows: 8vh 36vh 21vh 21vh 21vh 208vh;
+}
+
+.gifsCont {
+    position: relative;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    grid-row: 2 / 20;
+    grid-column: 2;
+}
+
+.hc {
+    height: 100%;
+}
+
+/* .tmp {
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    height: 100%;
+    z-index: 1;
+} */
+
+.name1 {
+    position: relative;
+    top: -13px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: rgb(88, 88, 88);
+    font-size: 150%;
+}
+
+/*----------------- Linked In Stuff -----------------*/
+
+.linkedInsvg {
+    position: relative;
+    top: 5.5vh;
+    width: 10vh;
+    height: auto;
+    left: 70px;
+    z-index: 1;
+    transform: scale(1);
+    transition: all ease-in .4s;    
+}
+
+.linkedInsvgLable {
+    opacity: 0;
+    position: relative;
+    width: 0px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: "----"; 
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 300%;
+    text-decoration: none;
+    bottom: 11vh;
+    text-align: center;
+    left: 100px;
+    transition: all ease-in .4s;
+}
+
+.LinkedInsvgPopup {
+    position: relative;
+}
+
+.LinkedInsvgPopup:hover .linkedInsvgLable {
+    left: 150px;
+    opacity: 1;
+    transform: none;
+    width: 250px;
+  }
+
+.LinkedInsvgPopup:hover .linkedInsvg {
+    transform: scale(1.2);
+  }
+
+/*----------------- Resume Stuff -----------------*/
+
+.Resumesvg {
+    position: relative;
+    top: 3vh;
+    width: 15vh;
+    height: auto;
+    left: 50px;
+    z-index: 1;
+    transform: scale(1);
+    transition: all ease-in .4s;
+  }
+ 
+  .ResumesvgLable {
+    opacity: 0;
+    position: relative;
+    width: 0px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: "----"; 
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 300%;
+    text-decoration: none;
+    bottom: 17vh;
+    text-align: center;
+    left: 100px;
+    transition: all ease-in .4s;
+  }
+ 
+  .ResumesvgPopup {
+    position: relative;
+  }
+ 
+  .ResumesvgPopup:hover .ResumesvgLable {
+    left: 150px;
+    opacity: 1;
+    transform: none;
+    width: 250px;
+   }
+ 
+  .ResumesvgPopup:hover .Resumesvg {
+    transform: scale(1.2);
+   }
+ 
+/*----------------- Github Stuff -----------------*/
+
+.Githubsvg {
+    position: relative;
+    top: 3vh;
+    width: 15vh;
+    height: auto;
+    left: 50px;
+    z-index: 1;
+    transform: scale(0.7);
+    transition: all ease-in .4s;
+  }
+ 
+  .GithubsvgLable {
+    opacity: 0;
+    position: relative;
+    width: 0px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: "----"; 
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 300%;
+    text-decoration: none;
+    bottom: 17vh;
+    text-align: center;
+    left: 100px;
+    transition: all ease-in .4s;
+  }
+ 
+  .GithubsvgPopup {
+    position: relative;
+  }
+ 
+  .GithubsvgPopup:hover .GithubsvgLable {
+    left: 120px;
+    opacity: 1;
+    transform: none;
+    width: 250px;
+   }
+ 
+  .GithubsvgPopup:hover .Githubsvg {
+    transform: scale(0.9);
+   }
+
+/*-----------------  -----------------*/
+
+.gifGrid {
+    position: relative;
+    top:0;
+    left: 0;
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-columns: 50% auto;
+    margin: 20px;
+    /* grid-template-rows: 8vh 36vh 21vh 21vh 21vh 208vh; */
+}
+
+.gifLink {
+    position: relative;
+    left: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .name1 {
+        font-size: 130%;
+        position: relative;
+        top: 5px;
+    }
+
+    .lisvg {
+        position: absolute;
+        transform: translate(0px, 10px);
+    }
+
+    .glisvg {
+        transform: scale(1);
+    }
+
+    .text1 {
+        position: relative;
+        top: 18px;
+        font-family: 'Orbitron', sans-serif;
+        color: rgb(88, 88, 88);
+        font-size: 120%;
+        display: none;
+    }
+
+    .glipng1 {
+        position: absolute;
+        transform: translate(-15px, 0px);
+        width: 70px;
+        height: auto;
+    
+    }
+
+    .glipng2 {
+        position: absolute;
+        transform: translate(-11px, 4px);
+        width: 60px;
+        height: auto;
+    
+    }
+
+
+}
+
+.border {
+    border-style: solid solid solid solid;
+    border-width: 1px;
+}
+
