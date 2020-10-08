@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "start": "node index.html",
+    "start": "start index.html",
     "heroku-postbuild": "npm run build"
   },
   "author": "",
