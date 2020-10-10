@@ -1,15 +1,15 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "description": "my portfolio",
   "main": "index.html",
   "scripts": {
-    "start": "start index.html",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
-  }
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "me",
+  "license": "MIT"
 }
