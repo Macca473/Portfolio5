@@ -4,7 +4,7 @@
   "description": "my portfolio",
   "main": "index.html",
   "scripts": {
-    "start": "start index.html || run index.html"
+    "start": "start index.html || run index.html || open index.html"
   },
   "keywords": [
     "example",
