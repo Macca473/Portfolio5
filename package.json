@@ -4,12 +4,18 @@
   "description": "my portfolio",
   "main": "index.html",
   "scripts": {
-    "start": "start index.html || run index.html || open index.html"
+    "start": "server.js"
   },
   "keywords": [
     "example",
     "heroku"
   ],
   "author": "me",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
