@@ -33,8 +33,55 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    grid-row: 2 / 20;
+    grid-row: 3 / 20;
     grid-column: 2;
+}
+
+.description {
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: rgb(88, 88, 88);
+    font-size: 150%;
+    top: 0px;
+    right: 40px;
+    /* height: 100%;
+    width: 100%; */
+    grid-row: 2 / 2;
+    grid-column: 2;
+}
+
+
+.descriptionParts {
+    position: relative;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% 10%;
+    left: 100px;
+    width: 450px;
+    margin: 10px;
+}
+
+.DisTxtSvg {
+    display: grid;
+    grid-row: 1 / 1;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+.ParaGmSVG {
+    position: relative;
+    width: 90%;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    z-index: 1;
+}
+
+.DisText {
+    position: relative;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    z-index: 2;
 }
 
 .hc {
@@ -44,8 +91,6 @@ body {
 /* .tmp {
     border-style: solid solid solid solid;
     border-width: 1px;
-    height: 100%;
-    z-index: 1;
 } */
 
 .name1 {
@@ -202,11 +247,14 @@ body {
     height: auto;
     width: 100%;
     grid-template-columns: 50% auto;
-    margin: 20px;
-    /* grid-template-rows: 8vh 36vh 21vh 21vh 21vh 208vh; */
 }
 
 .gifLink {
+    position: relative;
+    left: 15%;
+}
+
+.gifTec {
     position: relative;
     left: 15%;
 }
